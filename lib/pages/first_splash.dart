@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class FirstSplash2 extends StatelessWidget {
-  const FirstSplash2({Key? key}) : super(key: key);
+class FirstSplash extends StatelessWidget {
+  const FirstSplash({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -29,43 +29,5 @@ class FirstSplash2 extends StatelessWidget {
             ],
           ),
         ));
-  }
-}
-
-class FirstSplash1 extends StatelessWidget {
-  const FirstSplash1({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SafeArea(
-        child: Stack(
-          children: [
-            Container(
-              decoration: const BoxDecoration(
-                  image: DecorationImage(
-                      image: AssetImage("assets/background.png"),
-                      fit: BoxFit.cover)),
-            ),
-            Padding(
-              padding: EdgeInsets.only(top: 70.0, left: 77.0, right: 77.0),
-              child: Row(
-                children: [
-                  Image.asset(
-                    "assets/home.png",
-                    width: 51,
-                  ),
-                  Text(
-                    "HouseQu",
-                    style: GoogleFonts.dmSerifDisplay(
-                        fontSize: 32.3, fontWeight: FontWeight.bold),
-                  )
-                ],
-              ),
-            )
-          ],
-        ),
-      ),
-    );
   }
 }
