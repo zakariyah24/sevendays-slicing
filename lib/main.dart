@@ -11,7 +11,7 @@ class SevenDays extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: FirstSplash(),
+      home: FirstSplash2(),
     );
   }
 }
