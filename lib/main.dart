@@ -6,6 +6,7 @@ import 'package:sevendays/pages/first_signin.dart';
 import 'package:sevendays/pages/first_splash.dart';
 import 'package:sevendays/pages/first_started.dart';
 import 'package:sevendays/pages/second_empty.dart';
+import 'package:sevendays/pages/second_pricing.dart';
 import 'package:sevendays/pages/second_rating.dart';
 import 'package:sevendays/pages/second_started.dart';
 import 'package:sevendays/pages/second_splash.dart';
@@ -23,7 +24,7 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstPricing(),
+      home: SecondPricing(),
     );
   }
 }
