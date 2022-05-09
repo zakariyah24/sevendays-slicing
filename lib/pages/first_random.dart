@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sevendays/pages/first_started.dart';
 
 class FirstRandom extends StatelessWidget {
   const FirstRandom({Key? key}) : super(key: key);
